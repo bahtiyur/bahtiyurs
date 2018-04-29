@@ -10,6 +10,6 @@ result="$today$x.sh"
         chmod a+rwx "$result"
         echo  "#!/bin/bash" | sudo tee -a "$result" > /dev/null
         echo  "================ added 1 file with number $x ================="
-
+	echo  "=============================================================="
 
 
