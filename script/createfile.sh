@@ -11,5 +11,5 @@ result="$today$x.sh"
         echo  "#!/bin/bash" | sudo tee -a "$result" > /dev/null
         echo  "================ added 1 file with number $x ================="
 	echo  "=============================================================="
-
+        echo  "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
