@@ -1,0 +1,12 @@
+#!/bin/bash
+hari="Monday"
+libur="Sunday"
+today=`date +%A`
+echo "ini hari:" $today
+if [ "$hari" == "$libur" ]; then
+ echo "no learning";
+elif [ "$hari" == "$today" ]; then
+ echo "learning day";
+else
+ echo "sholat";
+fi
