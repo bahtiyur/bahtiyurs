@@ -1,0 +1,15 @@
+#!/bin/bash
+# File: bash1.sh
+# Macam-macam output
+ 
+# Output string, perhatikan petik dua dan petik satu
+echo "Linus said: "
+echo -n ' "See, you not only have to be a good coder to create a system like Linux, '
+echo 'you have to be a sneaky bastard too ;-)" '
+echo "direktori mu saat ini adalah : $(pwd) " 
+output=$(pwd)
+echo "your directory is : ${output}"
+echo "i saw $@ on the command line"
+echo "enter the phrase :"
+read input
+echo "you just entered ${input}"

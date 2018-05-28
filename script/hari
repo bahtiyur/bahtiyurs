@@ -1,0 +1,12 @@
+#!/bin/bash
+hari="Friday"
+libur="Sunday"
+today=`date +%A`
+echo "ini hari $today"
+if [ $hari == $today ]; then
+    echo "yes, hari ini belajar"
+elif [ $hari  == $libur ]; then
+    echo "libor"
+else
+    echo "ayo kerja"
+fi

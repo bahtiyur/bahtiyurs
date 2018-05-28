@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Hai, siapa namamu ? Jam berapa ini?"
+read NAME
+echo "Salam kenal" $NAME ", saya " $GELAR !
+JAM=`date +%H`
+MENIT=`date +%M`
+echo "sekarang jam" $JAM:$MENIT
+D1="UBUNTU"
+D2="SLACKWARE"
+S1="$D1 $D2"
+echo $S1

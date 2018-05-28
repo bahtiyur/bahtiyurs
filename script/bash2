@@ -1,0 +1,9 @@
+#!/bin/bash
+# File : bash102.sh
+# Mengisi variabel dengan konstanta
+SISOP="Linux"
+# Tampilkan isinya
+echo "Saya suka" $SISOP
+# Ubah isinya, tampilkan
+SISOP="Open Source"
+echo "dan semua" $SISOP
